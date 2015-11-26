@@ -78,7 +78,7 @@ Add the ionicon stylesheet from a [CDN](http://code.ionicframework.com/ionicons/
 | iconColor       | Color of the icon      | 'white'       | 'white', 'black' or css code (hex, rgba etc) |
 | spin            | Make the icon spin     | false         | true or false. Font-awesome required | 
 | extraClasses    | Additional classes in the created <i> tag | '' | 'fa-rotate90 myclass' eller other custom configuration |
-| number          | Number to show over the icon       | ''        | Any number - it could be a string too, no problem ;)
+| number          | Number to show over the marker       | ''        | Any number - it could be a string too, no problem ;)
 
 
 ### Supported icons
