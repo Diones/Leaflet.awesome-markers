@@ -10,9 +10,9 @@ Version 2.0 of Leaflet.awesome-markers is tested with:
 For bootstrap 2.x & Fontawesome 3.x use Leaflet.awesome-markers v1.0
 
 ## Screenshots
-![AwesomeMarkers screenshot](https://raw.githubusercontent.com/diones/Leaflet.awesome-markers/master/screenshots/screenshot-soft.png "Screenshot of AwesomeMarkers")
+![AwesomeMarkers screenshot](https://raw.githubusercontent.com/Diones/Leaflet.awesome-markers/2.0/develop/screenshots/screenshot-soft.png "Screenshot of AwesomeMarkers")
 
-![AwesomeMarkers screenshot number](https://raw.githubusercontent.com/diones/Leaflet.awesome-markers/master/screenshots/screenshot-number-option.png "Screenshot of AwesomeMarkers - number")
+![AwesomeMarkers screenshot number](https://raw.githubusercontent.com/Diones/Leaflet.awesome-markers/2.0/develop/screenshots/screenshot-number-option.png "Screenshot of AwesomeMarkers - number")
 
 <a href="http://jsfiddle.net/dionesandrade/ks01kp5u/" target="_blank">JSfiddle demo</a> 
 
