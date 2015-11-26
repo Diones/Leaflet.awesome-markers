@@ -10,9 +10,11 @@ Version 2.0 of Leaflet.awesome-markers is tested with:
 For bootstrap 2.x & Fontawesome 3.x use Leaflet.awesome-markers v1.0
 
 ## Screenshots
-![AwesomeMarkers screenshot](https://raw.github.com/lvoogdt/Leaflet.awesome-markers/master/screenshots/screenshot-soft.png "Screenshot of AwesomeMarkers")
+![AwesomeMarkers screenshot](https://raw.githubusercontent.com/diones/Leaflet.awesome-markers/master/screenshots/screenshot-soft.png "Screenshot of AwesomeMarkers")
 
-<a href="http://jsfiddle.net/VPzu4/92/" target="_blank">JSfiddle demo</a> 
+![AwesomeMarkers screenshot number](https://raw.githubusercontent.com/diones/Leaflet.awesome-markers/master/screenshots/screenshot-number-option.png "Screenshot of AwesomeMarkers - number")
+
+<a href="http://jsfiddle.net/dionesandrade/ks01kp5u/" target="_blank">JSfiddle demo</a> 
 
 ### Twitter Bootstrap/Font-Awesome icons
 This plugin depends on either Bootstrap or Font-Awesome for the rendering of the icons. See these urls for more information:
@@ -76,6 +78,7 @@ Add the ionicon stylesheet from a [CDN](http://code.ionicframework.com/ionicons/
 | iconColor       | Color of the icon      | 'white'       | 'white', 'black' or css code (hex, rgba etc) |
 | spin            | Make the icon spin     | false         | true or false. Font-awesome required | 
 | extraClasses    | Additional classes in the created <i> tag | '' | 'fa-rotate90 myclass' eller other custom configuration |
+| number          | Number to show over the icon       | ''        | Any number - it could be a string too, no problem ;)
 
 
 ### Supported icons
@@ -97,6 +100,26 @@ Tweak size and positioning of the icons:
     .awesome-marker i {
         font-size: 18px;
         margin-top: 8px;
+    }
+````
+
+Customizing the number box:
+
+````css
+    .awesome-markers-number {
+        font-weight: bold;
+        background-color: #009689;
+        color: white;
+        border-radius: 50%;
+        min-width: 2.5em;
+        min-height: 2.5em;
+        padding: 4px;
+        text-align: center;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 4px rgba(0, 0, 0, 0.48);
+        font-size: 7px;
+        position: absolute;
+        right: -5px;
+        bottom: 36px;
     }
 ````
 

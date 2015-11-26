@@ -31,7 +31,8 @@
             extraClasses: '',
             icon: 'home',
             markerColor: 'blue',
-            iconColor: 'white'
+            iconColor: 'white',
+            number: ''
         },
 
         initialize: function (options) {
@@ -76,7 +77,12 @@
                 }
             }
 
-            return "<i " + iconColorStyle + "class='" + options.extraClasses + " " + options.prefix + " " + iconClass + " " + iconSpinClass + " " + iconColorClass + "'></i>";
+            var numberDiv = '';
+            if (options.number) {
+                numberDiv = '<div class="awesome-markers-number">' + options.number + '</div>';
+            }
+
+            return "<i " + iconColorStyle + "class= '" + options.extraClasses + " " + options.prefix + " " + iconClass + " " + iconSpinClass + " " + iconColorClass + "' ></i>" + numberDiv;
         },
 
         _setIconStyles: function (img, name) {
